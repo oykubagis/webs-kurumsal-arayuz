@@ -1,0 +1,33 @@
+
+body{
+  background-color:#f8f9fa
+}
+
+.foto{
+  width: 170px;
+  height: 190px;
+}
+
+.kutu{
+  width: 500px;
+  height: 400px;
+}
+/* Linklerin üzerine gelince mor parlaması */
+.hover-link:hover {
+    color: #a855f7 !important; /* Logondaki mor tonuna yakın */
+    padding-left: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Sosyal medya butonlarının hover hali */
+.social-icons .btn:hover {
+    background-color: #a855f7;
+    border-color: #a855f7;
+    color: white;
+}
+
+/* Alt çizgi rengi */
+.border-primary {
+    border-color: #a855f7 !important;
+}
+

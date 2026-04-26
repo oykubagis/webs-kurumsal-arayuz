@@ -1,0 +1,38 @@
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.carousel-item img {
+    height: 600px; /* İstediğin yüksekliği buraya yazabilirsin */
+    object-fit: cover; /* Görselin sünmesini engeller, kutuyu dolduracak şekilde kırpar */
+}
+
+/* Linklerin üzerine gelince mor parlaması */
+.hover-link:hover {
+    color: #a855f7 !important; /* Logondaki mor tonuna yakın */
+    padding-left: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Sosyal medya butonlarının hover hali */
+.social-icons .btn:hover {
+    background-color: #a855f7;
+    border-color: #a855f7;
+    color: white;
+}
+
+/* Alt çizgi rengi */
+.border-primary {
+    border-color: #a855f7 !important;
+}
+/* Ana sayfadaki 6'lı kart düzeni için özel efekt */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Yumuşak geçiş sağlar */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Kartı 10 piksel yukarı kaldırır */
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important; /* Gölgeyi belirginleştirir */
+    cursor: pointer; /* Tıklanabilir hissi verir */
+}
